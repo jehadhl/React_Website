@@ -1,0 +1,141 @@
+.gpt3__posibility{
+    display: flex;
+    flex-direction: row;
+}
+
+.gpt3__posibility-image{
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-right: 2rem;
+}
+
+.gpt3__posibility-image img{
+
+width: 100%;
+height: 100%;
+
+}
+
+.gpt3__posibility-content{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    margin-bottom: 7rem;
+  
+}
+
+.gpt3__posibility-content h4{
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    color: #71E5FF;
+}
+
+.gpt3__posibility-content h4:last-child{
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 30px;
+    color: #FF8A71;
+}
+
+.gpt3__posibility-content h1{
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 800;
+    font-size: 34px;
+    line-height: 45px;
+    padding-right: 25%;
+    margin: 1rem 0;
+}
+
+.gpt3__posibility-content p{
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 25px;
+    color: #81AFDD;
+    margin-bottom: 1rem;
+}
+
+
+@media screen and (max-width:1200px){
+    .gpt3__posibility-content{
+       
+        margin-bottom: 5rem;
+      
+    }
+
+    .gpt3__posibility-content h1{
+        
+        padding-right: 0%;
+        
+    }
+}
+
+@media screen and (max-width:1050px){
+    .gpt3__posibility-content{
+       
+        margin-bottom: 0rem;
+      
+    }
+
+    .gpt3__posibility-content h1{
+     
+        padding-right: 0%;
+        
+    }
+}
+
+
+@media screen and (max-width:750px){
+
+    .gpt3__posibility-content h1{
+        font-size: 28px;
+        line-height: 36px;
+        padding-right: 0%;
+        
+    }
+
+    .gpt3__posibility-content h4{ 
+        font-size: 14px;
+    }
+}
+
+
+
+@media screen and (max-width:701px){
+    .gpt3__posibility{
+        margin: 0;
+    }
+  
+}
+
+
+
+@media screen and (max-width:604px){
+    .gpt3__posibility{
+        flex-direction: column;
+        width: 100%;
+        padding-top: 1rem;
+    }
+
+    .gpt3__posibility-content h4{
+       padding-top: 3rem;
+    }
+
+    .gpt3__posibility-content h4:last-child{
+        padding-top: 0rem;
+     }
+   
+  
+}
+
